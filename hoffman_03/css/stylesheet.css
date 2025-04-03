@@ -1,0 +1,48 @@
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url(../images/background.jpg);
+	background-position-x:center;
+	height:100vh;
+	background-size:cover;
+	color:white;
+	text-align:center;
+	padding: 10px;
+}
+
+header{
+	padding-top:10vh;
+	padding-bottom: 2vh;
+	
+}
+
+h1{	padding:10px;
+	font-size:6rem;}
+
+h2{	padding-top:20px;
+	font-size:4rem;}
+
+h3{	padding:15px;
+	font-size:3rem;
+	font-weight: 200;}
+
+.trick{
+	background-color:blueviolet;
+	border-color: white;
+	color:white;
+	padding:10px;
+	font-size:1rem;
+}
+
+#container{
+	padding:20px;
+	font-size:2rem;
+}
